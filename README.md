@@ -3,6 +3,6 @@ In cryptography, it is known that the basics of the [RSA system](https://en.wiki
 
 So, if we were to break a PK and discover the SK (the two prime numbers that factor the PK), we would need to factor this number and discover two primes that multiplied result in the PK. In the real world, it is only safe to share the PK with other people because of the mathematical complexity of this operation, since we use very big numbers (around 2048 bits or even more!) as mentioned before.
 
-Despite that, it does not stop us from making a very dummy PK breaker algorithm, which consists in basically trying to factor the passed number, using some basic math and the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm#:~:text=In%20mathematics%2C%20the%20Euclidean%20algorithm,them%20both%20without%20a%20remainder.).
+Despite that, it does not stop us from making a very dummy PK breaker algorithm, which consists in basically trying to factor the passed number, using some basic math and the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm#:~:text=In%20mathematics%2C%20the%20Euclidean%20algorithm,them%20both%20without%20a%20remainder.). In theory, this code should be able to break any Public Key in the world, if given some time!! (a couple billion of years should be enough I hope :joy:).
 
 This project was made just for fun and for learning purposes as well. Please feel free to test it out. Just remember using some very small numbers, since complexity will easily grow.
