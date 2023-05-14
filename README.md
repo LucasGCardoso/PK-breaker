@@ -6,3 +6,7 @@ So, if we were to break a PK and discover the SK (the two prime numbers that fac
 Despite that, it does not stop us from making a very dummy PK breaker algorithm, which consists in basically trying to factor the passed number, using some basic math and the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm#:~:text=In%20mathematics%2C%20the%20Euclidean%20algorithm,them%20both%20without%20a%20remainder.). In theory, this code should be able to break any Public Key in the world, if given some time!! (a couple billion of years should be enough I hope :joy:).
 
 This project was made just for fun and for learning purposes as well. Please feel free to test it out. Just remember using some very small numbers, since complexity will easily grow.
+
+I was brave enough to run it for the number 497009, which is the result of the multiplication of the primes 709 and 701. It took about 1 hour and 22 minuntes, as you can see in the image.
+
+![pk-breaker](https://github.com/LucasGCardoso/PK-breaker/assets/40406397/a094f465-fbb9-4823-a909-039f90e98574)
